@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.1.0/cosmo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/font-mfizz.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="_static/glumpy-text-white.svg">
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="news.html">News</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"></ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+<!--
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+-->
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#packages-requirements">Packages requirements</a></li>
+<li><a class="reference internal" href="#backends-requirements">Backends requirements</a><ul>
+<li><a class="reference internal" href="#qt">Qt</a></li>
+<li><a class="reference internal" href="#glfw">GLFW</a></li>
+<li><a class="reference internal" href="#glut">GLUT</a></li>
+<li><a class="reference internal" href="#pyglet">Pyglet</a></li>
+<li><a class="reference internal" href="#sdl2-a-k-a-pygame2">SDL2 (a.k.a. PyGame2)</a></li>
+<li><a class="reference internal" href="#gtk-2-x-not-yet-done">GTK 2.x (not yet done)</a></li>
+<li><a class="reference internal" href="#gtk-3-x-not-yet-done">GTK 3.x (not yet done)</a></li>
+<li><a class="reference internal" href="#wx-2-x-not-yet-done">WX 2.x (not yet done)</a></li>
+<li><a class="reference internal" href="#wx-3-x-not-yet-done">WX 3.x (not yet done)</a></li>
+<li><a class="reference internal" href="#pygame-a-k-a-sdl">PyGame (a.k.a. SDL)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#hardware-requirements">Hardware requirements</a><ul>
+<li><a class="reference internal" href="#linux-and-osx">Linux and OSX</a></li>
+<li><a class="reference internal" href="#windows">Windows</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id6">Installation</a><ul>
+<li><a class="reference internal" href="#testing-installation">Testing installation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<form action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9">
+      
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="packages-requirements">
+<h2>Packages requirements<a class="headerlink" href="#packages-requirements" title="Permalink to this headline">¶</a></h2>
+<p>The only mandatory requirements for glumpy is the <a class="reference external" href="http://numpy.org">numpy</a>
+and the <a class="reference external" href="http://pyopengl.sourceforge.net">pyopengl</a> packages. The most
+straightforward way to install them is:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>pip install numpy
+<span class="nv">$ </span>pip install pyopengl
+</pre></div>
+</div>
+<p>If you have alread installed them, make sure to upgrade to the lastest version:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>pip install --upgrade numpy
+<span class="nv">$ </span>pip install --upgrade pyopengl
+</pre></div>
+</div>
+</div>
+<div class="section" id="backends-requirements">
+<h2>Backends requirements<a class="headerlink" href="#backends-requirements" title="Permalink to this headline">¶</a></h2>
+<p>Glumpy requires at least one toolkit for opening a window and creates an OpenGL
+context. This can be done using one of the standard C/C++ toolkits (Qt, GLFW,
+glut, pygame, SDL2, Wx, GTK2 or GTK3) and requires the corresponding python
+bindings or a pure python toolkit such as pyglet.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">You only need to have one of these packages, no need to install them all !</p>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="47%" />
+<col width="7%" />
+<col width="9%" />
+<col width="13%" />
+<col width="9%" />
+<col width="9%" />
+<col width="7%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Modern Backends</strong></td>
+<td>Qt</td>
+<td>GLFW</td>
+<td>Pyglet</td>
+<td>SDL2</td>
+<td>GTK3</td>
+<td>Wx3</td>
+</tr>
+<tr class="row-even"><td>Multiple windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Non-decorated windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Resize windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Move windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Set GL API</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Set GL Profile</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Share GL Context</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Fullscreen</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Unicode handling</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="46%" />
+<col width="6%" />
+<col width="8%" />
+<col width="15%" />
+<col width="12%" />
+<col width="13%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Old school backends</strong></td>
+<td>Wx2</td>
+<td>Glut</td>
+<td>Freeglut</td>
+<td>Pygame</td>
+<td>GTK 2.x</td>
+</tr>
+<tr class="row-even"><td>Multiple windows</td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Non-decorated windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Resize windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Move windows</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Set GL API</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>Set GL Profile</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>Share GL Context</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Fullscreen</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-even"><td>Unicode handling</td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="row-odd"><td>Scroll event</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="qt">
+<h3>Qt<a class="headerlink" href="#qt" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://qt-project.org">Qt</a> is a cross-platform application and UI framework
+for developers using C++ or QML, a CSS &amp; JavaScript like language. Qt Creator
+is the supporting Qt IDE. There are (at least) two sets of availble python
+bindings. <a class="reference external" href="http://pyqt.sourceforge.net">PyQT</a> supports Python v2 and v3 and
+Qt v4 and Qt v5 and is available under the GPL and commercial licenses. <a class="reference external" href="http://qt-project.org/wiki/PySide">PySide</a> provides LGPL-licensed Python bindings
+for Qt. PySide Qt bindings allow both free open source and proprietary software
+development and ultimately aim to support Qt platforms.</p>
+</div>
+<div class="section" id="glfw">
+<h3>GLFW<a class="headerlink" href="#glfw" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://www.glfw.org">GLFW</a> is an Open Source, multi-platform library for
+creating windows with OpenGL contexts and managing input and events. It is easy
+to integrate into existing applications and does not lay claim to the main
+loop. There is no need to install bindings because glumpy comes with the glfw
+bindings (cloned from the <a class="reference external" href="https://github.com/rougier/pyglfw">pyglfw</a> project).</p>
+</div>
+<div class="section" id="glut">
+<h3>GLUT<a class="headerlink" href="#glut" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://www.opengl.org/resources/libraries/glut/">GLUT</a> is the OpenGL Utility
+Toolkit, a window system independent toolkit for writing OpenGL programs. It
+implements a simple windowing application programming interface (API) for
+OpenGL. <a class="reference external" href="http://pyopengl.sourceforge.net">PyOpenGL</a> is the most common
+cross platform Python binding to OpenGL and related APIs. The binding is
+created using the standard ctypes library and gives access to GLUT.</p>
+</div>
+<div class="section" id="pyglet">
+<h3>Pyglet<a class="headerlink" href="#pyglet" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://www.pyglet.org">Pyglet</a> is a cross-platform windowing and multimedia
+library for Python and provides an object-oriented programming interface for
+developing games and other visually-rich applications for Windows, Mac OS X
+and Linux.</p>
+</div>
+<div class="section" id="sdl2-a-k-a-pygame2">
+<h3>SDL2 (a.k.a. PyGame2)<a class="headerlink" href="#sdl2-a-k-a-pygame2" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://www.pygame.org">PySDL2</a> is a wrapper around the SDL2 library and as
+such similar to the discontinued PySDL project. In contrast to PySDL, it has no
+licensing restrictions, nor does it rely on C code, but uses ctypes instead.</p>
+</div>
+<div class="section" id="gtk-2-x-not-yet-done">
+<h3>GTK 2.x (not yet done)<a class="headerlink" href="#gtk-2-x-not-yet-done" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="gtk-3-x-not-yet-done">
+<h3>GTK 3.x (not yet done)<a class="headerlink" href="#gtk-3-x-not-yet-done" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="wx-2-x-not-yet-done">
+<h3>WX 2.x (not yet done)<a class="headerlink" href="#wx-2-x-not-yet-done" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="wx-3-x-not-yet-done">
+<h3>WX 3.x (not yet done)<a class="headerlink" href="#wx-3-x-not-yet-done" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="pygame-a-k-a-sdl">
+<h3>PyGame (a.k.a. SDL)<a class="headerlink" href="#pygame-a-k-a-sdl" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://www.pygame.org">Pygame</a> is a set of Python modules designed for
+writing games. Pygame adds functionality on top of the excellent SDL
+library. This allows you to create fully featured games and multimedia programs
+in the python language. Pygame is highly portable and runs on nearly every
+platform and operating system.</p>
+</div>
+</div>
+<div class="section" id="hardware-requirements">
+<h2>Hardware requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h2>
+<p>Glumpy makes heavy use of the graphic cards installed on your system. More
+precisely, glumpy makes heavy use of the Graphical Processing Unit (GPU) through
+shaders. Glumpy thus requires a fairly recent video card (~ less than 12 years
+old) as well as an up-to-date video driver such that glumpy can access the
+programmable pipeline (as opposed to the fixed pipeline).</p>
+<div class="section" id="linux-and-osx">
+<h3>Linux and OSX<a class="headerlink" href="#linux-and-osx" title="Permalink to this headline">¶</a></h3>
+<p>On Linux and OSX platform, you can type:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>glxinfo
+</pre></div>
+</div>
+<p>The results of the above command and is long list of information related to
+your video driver. The most important information for the time being is whether
+you have direct access to your video card and what is the GL version and the
+shading language version:</p>
+<div class="highlight-python"><div class="highlight"><pre>...
+direct rendering: Yes
+...
+OpenGL vendor string: NVIDIA Corporation
+OpenGL renderer string: NVIDIA GeForce GT 650M OpenGL Engine
+OpenGL version string: 2.1 NVIDIA-8.24.9 310.40.25f01
+OpenGL shading language version string: 1.20
+...
+</pre></div>
+</div>
+<p>The OpenGL version must be at least 2.1 and the shading language version must
+be at least 1.1. If this is not the case, you need to install more recent
+versions. Have a look a your system documentation or browse online for howtos.</p>
+</div>
+<div class="section" id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
+<p>To be written.</p>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>Installation<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>Once requirements are met, you can proceed with glumpy installation:</p>
+<div class="highlight-bash"><div class="highlight"><pre>pip install glumpy
+</pre></div>
+</div>
+<p>or upgrade any existing installation:</p>
+<div class="highlight-bash"><div class="highlight"><pre>pip install --upgrade glumpy
+</pre></div>
+</div>
+<div class="section" id="testing-installation">
+<h3>Testing installation<a class="headerlink" href="#testing-installation" title="Permalink to this headline">¶</a></h3>
+<p>It is strongly advised to run the glumpy test suite right after installation to
+check if everything is ok. To do this, just type:</p>
+<div class="highlight-pycon"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">glumpy</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">glumpy</span><span class="o">.</span><span class="n">test</span><span class="p">()</span>
+<span class="gp">...</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+
+  <div class="container">
+    <ul class="list-inline">
+      <li><a href="https://github.com/glumpy/glumpy">GitHub</a></li>
+      <li>·</li>
+      <li><a href=""><a href="https://github.com/glumpy/glumpy/blob/master/examples/README.rst">Examples</a></li>
+      <li>·</li>
+      <li><a href="https://github.com/glumpy/glumpy/issues">Issues</a></li>
+      <li>·</li>
+      <li><a href="">Changelog</a></li>
+      <li>·</li>
+      <li><a href="https://github.com/glumpy/glumpy/releases">Releases</a></li>
+      <li class="pull-right"><a href="#">Back to top</a></li>
+    </ul>
+    <ul class="list-unstyled small">
+      <li>Copyright (c) 2014 Nicolas P. Rougier</li>
+      <li>Code licensed under
+        <a href="http://opensource.org/licenses/BSD-2-Clause">BSD license</a>,
+        documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0 </a>
+      </li>
+      <li>
+        Made with <a href="http://sphinx-doc.org">sphinx</a> using the excellent
+        <a href="https://github.com/ryan-roemer/sphinx-bootstrap-theme">bootstrap theme</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+  </body>
+</html>
