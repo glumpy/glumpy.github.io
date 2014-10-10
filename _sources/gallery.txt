@@ -430,7 +430,7 @@ Gallery
             :header:`Smoke simulation`
 
             Porting the fluid simulation from the `little
-            grasshopper <http://github.prideout.net/blog/?p=58>`_, this example
+            grasshopper <http://prideout.net/blog/?p=58>`_, this example
             shows a very nice smoke simulation using GPU Eulerian approach.
 
             .. raw:: html
