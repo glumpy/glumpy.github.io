@@ -37,8 +37,8 @@ Gallery
                href="https://github.com/glumpy/glumpy/blob/master/examples/fireworks.py"/>
                <span class="fa fa-github"></span> Sources </a>
 
-               <button type="button" class="btn btn-danger btn-xs">
-               <span class="glyphicon glyphicon-film"></span> Movie</button>
+               <a type="button" class="btn btn-danger btn-xs" href="_static/movies/fireworks.mp4"/>
+               <span class="glyphicon glyphicon-film"></span>Movie</a>
 
 
    .. container:: col-sm-6 col-md-3
