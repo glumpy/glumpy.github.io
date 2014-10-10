@@ -65,8 +65,8 @@ Gallery
                <span class="fa fa-github"></span> Sources
                </a>
 
-               <button type="button" class="btn btn-danger btn-xs">
-               <span class="glyphicon glyphicon-film"></span> Movie</button>
+               <a type="button" class="btn btn-danger btn-xs" href="_static/movies/galaxy.mp4"/>
+               <span class="glyphicon glyphicon-film"></span>Movie</a>
 
 
    .. container:: col-sm-6 col-md-3
@@ -414,7 +414,7 @@ Gallery
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/collection-custom-lines.py"/>
-               <span class="fa fa-github"></span> Sources</a>
+               <span class="fa fa-github"></span>Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -437,4 +437,7 @@ Gallery
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/smoke/smoke.py"/>
-               <span class="fa fa-github"></span> Sources</a>
+               <span class="fa fa-github"></span>Sources</a>
+
+               <a type="button" class="btn btn-danger btn-xs" href="_static/movies/smoke.mp4"/>
+               <span class="glyphicon glyphicon-film"></span>Movie</a>
