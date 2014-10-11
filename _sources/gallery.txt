@@ -441,3 +441,27 @@ Gallery
 
                <a type="button" class="btn btn-danger btn-xs" href="_static/movies/smoke.mp4"/>
                <span class="glyphicon glyphicon-film"></span>Movie</a>
+
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/gloo-magnify.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/gloo-magnify.png
+
+         .. container:: caption
+
+            :header:`Magnifying glass`
+
+            A magnigying glass to help the visualization of a scatter
+            plot. The position and level of zoom is controlled by the
+            mouse.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/gloo-magnify.py"/>
+               <span class="fa fa-github"></span>Sources</a>
