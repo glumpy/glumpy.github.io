@@ -1,4 +1,4 @@
-.. title:: Glump gallery
+.. title:: Glumpy gallery
 
 .. role:: header
    :class: h4
@@ -11,6 +11,10 @@ Gallery
 
    Some screenshots from the glumpy examples directory.
 
+You will need the latest glumpy for the `github repository
+<https://github.com/glumpy/>`_ to run them.
+
+|
 
 .. container:: row
 
