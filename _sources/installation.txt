@@ -217,14 +217,15 @@ or upgrade any existing installation:
    pip install --upgrade glumpy
 
 
-Testing installation
---------------------
+..
+   Testing installation
+   --------------------
 
-It is strongly advised to run the glumpy test suite right after installation to
-check if everything is ok. To do this, just type:
+   It is strongly advised to run the glumpy test suite right after installation to
+   check if everything is ok. To do this, just type:
 
-.. code-block:: pycon
+   .. code-block:: pycon
 
-   >>> import glumpy
-   >>> glumpy.test()
-   ...
+      >>> import glumpy
+      >>> glumpy.test()
+      ...
