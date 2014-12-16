@@ -469,3 +469,47 @@ You will need the latest glumpy for the `github repository
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/gloo-magnify.py"/>
                <span class="fa fa-github"></span>Sources</a>
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/isocurves.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/isocurves.png
+
+         .. container:: caption
+
+            :header:`Isocurves`
+
+            Isocurves can be direcly computed on the GPU (no need to
+            precompute them). This is a very fast and accurate technique.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/isocurves.py"/>
+               <span class="fa fa-github"></span>Sources</a>
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/lorenz.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/lorenz.png
+
+         .. container:: caption
+
+            :header:`Lorenz attractor`
+
+            Collections (glyphs, paths and segments) allow for efficient batch
+            rendering of several objects with a few GL calls.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/ticks.py"/>
+               <span class="fa fa-github"></span>Sources</a>
