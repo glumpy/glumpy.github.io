@@ -435,7 +435,7 @@ You will need the latest glumpy for the `github repository
 
             Porting the fluid simulation from the `little
             grasshopper <http://prideout.net/blog/?p=58>`_, this example
-            shows a very nice smoke simulation using GPU Eulerian approach.
+            shows a very nice smoke simulation using GPU.
 
             .. raw:: html
 
