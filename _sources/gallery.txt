@@ -528,7 +528,7 @@ You will need the latest glumpy for the `github repository
             :header:`SVG rendering`
 
             SVG rendering using polygons and paths collections allow for efficient batch
-            rendering of the tiger with only 2 GL calls.
+            rendering of the tiger.
 
             .. raw:: html
 
@@ -538,3 +538,26 @@ You will need the latest glumpy for the `github repository
 
                <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
                <span class="fa fa-spinner fa-spin"></span> WIP</button>
+
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/graph.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/graph.png
+
+         .. container:: caption
+
+            :header:`Graphs`
+
+            Graphs can be rendered using collection of markers and lines
+            segments allowing very fast dispaly.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/graph.py"/>
+               <span class="fa fa-github"></span>Sources</a>
