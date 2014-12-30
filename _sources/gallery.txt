@@ -553,8 +553,8 @@ You will need the latest glumpy for the `github repository
 
             :header:`Graphs`
 
-            Graphs can be rendered using collection of markers and lines
-            segments allowing very fast dispaly.
+            Graphs can be rendered using collections of markers and line
+            segments allowing very fast display.
 
             .. raw:: html
 
