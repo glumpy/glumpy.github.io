@@ -575,8 +575,8 @@ You will need the latest glumpy for the `github repository
 
             :header:`Colors`
 
-            Named colors are easily accessible using namespace such as
-            `material
+            Named colors are easily accessible using colon notation
+            and namespace such as `material
             <http://www.google.com/design/spec/style/color.html>`_, `web
             <http://www.w3.org/TR/css3-color/#html4>`_ and `svg
             <http://www.w3.org/TR/css3-color/#svg-color>`_.
