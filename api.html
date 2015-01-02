@@ -158,7 +158,7 @@ text, collections and widgets.</li>
 <div class="col-md-6">
 <p><span class="h2">Gloo</span></p>
 <ul class="simple">
-<li><strong>globject</strong> : Abstract object that lives on both CPU &amp; GPU</li>
+<li><strong>globject</strong> : Abstract object that lives on CPU &amp; GPU</li>
 <li><strong>gpudata</strong>  : GPU aware numpy array</li>
 <li><strong>program</strong>  : GPU Program</li>
 <li><strong>parser</strong>   : GLSL parser</li>
@@ -175,13 +175,15 @@ text, collections and widgets.</li>
 <div class="col-md-6">
 <p><span class="h2">Graphics</span></p>
 <ul class="simple">
-<li><strong>text</strong>        : Text related objects</li>
-<li><strong>widgets</strong>     : Interactive widgets</li>
+<li><strong>color</strong>       : Color handling</li>
+<li><strong>svg</strong>         : SVG parsing</li>
 <li><strong>collections</strong><ul>
-<li><strong>points</strong>    : Points collection</li>
-<li><strong>lines</strong>     : Lines collection</li>
-<li><strong>triangles</strong> : Triangles collection</li>
-<li><strong>quads</strong>     : Quads collection</li>
+<li><strong>point</strong>    : Points collection</li>
+<li><strong>segment</strong>  : Line segment collection</li>
+<li><strong>path</strong>     : Path collection</li>
+<li><strong>triangle</strong> : Triangles collection</li>
+<li><strong>polygon</strong>  : Polygon collection</li>
+<li><strong>glyph</strong>    : Glyph collection</li>
 </ul>
 </li>
 </ul>
@@ -191,7 +193,7 @@ text, collections and widgets.</li>
 <ul class="simple">
 <li><strong>geometry</strong>   : Geometry related functions</li>
 <li><strong>transforms</strong> : Interactive transformations</li>
-<li><strong>shaders</strong>    : Actual shader code</li>
+<li><strong>library</strong>    : Actual shader code</li>
 <li><strong>gl</strong>         : OpenGL access</li>
 <li><strong>glm</strong>        : Simple 3D matrix transforms</li>
 <li><strong>ext</strong>        : External packages</li>

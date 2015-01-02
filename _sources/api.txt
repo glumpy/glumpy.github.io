@@ -56,7 +56,7 @@ Application Program Interface (API)
 
       :header:`Gloo`
 
-      * **globject** : Abstract object that lives on both CPU & GPU
+      * **globject** : Abstract object that lives on CPU & GPU
       * **gpudata**  : GPU aware numpy array
       * **program**  : GPU Program
       * **parser**   : GLSL parser
@@ -74,14 +74,16 @@ Application Program Interface (API)
 
       :header:`Graphics`
 
-      * **text**        : Text related objects
-      * **widgets**     : Interactive widgets
+      * **color**       : Color handling
+      * **svg**         : SVG parsing
       * **collections**
 
-        * **points**    : Points collection
-        * **lines**     : Lines collection
-        * **triangles** : Triangles collection
-        * **quads**     : Quads collection
+        * **point**    : Points collection
+        * **segment**  : Line segment collection
+        * **path**     : Path collection
+        * **triangle** : Triangles collection
+        * **polygon**  : Polygon collection
+        * **glyph**    : Glyph collection
 
    .. container:: col-md-6
 
@@ -89,7 +91,7 @@ Application Program Interface (API)
 
       * **geometry**   : Geometry related functions
       * **transforms** : Interactive transformations
-      * **shaders**    : Actual shader code
+      * **library**    : Actual shader code
       * **gl**         : OpenGL access
       * **glm**        : Simple 3D matrix transforms
       * **ext**        : External packages
