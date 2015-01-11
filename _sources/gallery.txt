@@ -586,3 +586,28 @@ You will need the latest glumpy for the `github repository
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/material-colors.py"/>
                <span class="fa fa-github"></span>Sources</a>
+
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/protein.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/protein.png
+
+         .. container:: caption
+
+            :header:`Molecules`
+
+            Molecules can be rendered very efficiently using sphere impostors
+            and screen space ambient occlusion.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/protein.py"/>
+               <span class="fa fa-github"></span>Sources</a>
+               <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
+               <span class="fa fa-spinner fa-spin"></span> WIP</button>
