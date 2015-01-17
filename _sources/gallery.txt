@@ -611,3 +611,25 @@ You will need the latest glumpy for the `github repository
                <span class="fa fa-github"></span>Sources</a>
                <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
                <span class="fa fa-spinner fa-spin"></span> WIP</button>
+
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/skybox.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/skybox.png
+
+         .. container:: caption
+
+            :header:`Sky box`
+
+            Standard skyboxes using texture cube.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/skybox.py"/>
+               <span class="fa fa-github"></span>Sources</a>
