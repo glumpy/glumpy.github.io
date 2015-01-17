@@ -626,10 +626,32 @@ You will need the latest glumpy for the `github repository
 
             :header:`Sky box`
 
-            Standard skyboxes using texture cube.
+            Standard skyboxes (texture cube).
 
             .. raw:: html
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/skybox.py"/>
+               <span class="fa fa-github"></span>Sources</a>
+
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/cartopy.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/cartopy.png
+
+         .. container:: caption
+
+            :header:`Cartography`
+
+            Cartographic projection.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/cartopy.py"/>
                <span class="fa fa-github"></span>Sources</a>
