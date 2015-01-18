@@ -2,5 +2,14 @@
 News
 ====
 
+:17/01/2014: `Glumpy version 1.0
+             <https://github.com/glumpy/glumpy/releases/tag/v1.0>`_ is out !
+
+             After intense refactoring, glumpy 1.0 is out. This is a brand new
+             version much more powerful and beautiful than previous versions
+             and comes with a bunch of examples (make sure to look at the
+             different examples) and eye-candy demos. The documentation is not
+             yet up-to-date but this is the next milestone.
+
 
 :01/09/2014: A brand new website is online. You're reading it just now...

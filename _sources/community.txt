@@ -14,7 +14,7 @@ Community
    .. container:: col-md-4
 
       If you have questions related to the use of glumpy, we have a `chat room
-      <https://gitter.im/glumpy>`_ on gitter.
+      <https://gitter.im/glumpy/chatroom>`_ on gitter.
 
       .. raw:: html
 
