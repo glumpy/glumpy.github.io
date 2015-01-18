@@ -2,7 +2,7 @@
 News
 ====
 
-:17/01/2014: `Glumpy version 1.0
+:17/01/2015: `Glumpy version 1.0
              <https://github.com/glumpy/glumpy/releases/tag/v1.0>`_ is out !
 
              After intense refactoring, glumpy 1.0 is out. This is a brand new
