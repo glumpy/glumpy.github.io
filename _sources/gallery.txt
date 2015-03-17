@@ -677,3 +677,23 @@ You will need the latest glumpy for the `github repository
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/spiral.py"/>
                <span class="fa fa-github"></span>Sources</a>
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/polar-projection.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/polar-projection.png
+
+         .. container:: caption
+
+            :header:`Transforms`
+
+            Any kind of transfrom can be used. Here is a polar projection transform.
+
+            .. raw:: html
+
+               <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
+               <span class="fa fa-spinner fa-spin"></span> WIP</button>
