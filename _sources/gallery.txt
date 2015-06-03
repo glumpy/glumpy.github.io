@@ -417,7 +417,7 @@ You will need the latest glumpy for the `github repository
             .. raw:: html
 
                <a type="button" class="btn btn-primary btn-xs"
-               href="https://github.com/glumpy/glumpy/blob/master/examples/collection-custom-lines.py"/>
+               href="https://github.com/glumpy/glumpy/blob/master/examples/collection-update.py"/>
                <span class="fa fa-github"></span>Sources</a>
 
    .. container:: col-sm-6 col-md-3
