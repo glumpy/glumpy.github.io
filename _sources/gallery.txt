@@ -418,7 +418,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/collection-update.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -444,7 +444,7 @@ You will need the latest glumpy for the `github repository
                <span class="fa fa-github"></span>Sources</a>
 
                <a type="button" class="btn btn-danger btn-xs" href="_static/movies/smoke.mp4"/>
-               <span class="glyphicon glyphicon-film"></span>Movie</a>
+               <span class="glyphicon glyphicon-film"></span> Movie</a>
 
 
    .. container:: col-sm-6 col-md-3
@@ -468,7 +468,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/gloo-magnify.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -490,7 +490,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/isocurves.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -512,7 +512,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/lorenz.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -534,7 +534,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/tiger.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
                <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
                <span class="fa fa-spinner fa-spin"></span> WIP</button>
@@ -560,7 +560,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/graph.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -585,7 +585,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/material-colors.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
 
    .. container:: col-sm-6 col-md-3
@@ -608,7 +608,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/protein.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
                <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
                <span class="fa fa-spinner fa-spin"></span> WIP</button>
@@ -634,7 +634,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/spiral.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
    .. container:: col-sm-6 col-md-3
 
@@ -675,7 +675,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/spherical-harmonics.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
 
    .. container:: col-sm-6 col-md-3
@@ -697,7 +697,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/topojson.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
 
    .. container:: col-sm-6 col-md-3
@@ -719,7 +719,7 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/skybox.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
 
    .. container:: col-sm-6 col-md-3
@@ -741,7 +741,29 @@ You will need the latest glumpy for the `github repository
 
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/cartopy.py"/>
-               <span class="fa fa-github"></span>Sources</a>
+               <span class="fa fa-github"></span> Sources</a>
 
                <button type="button" class="btn btn-danger btn-xs disabled="disabled"">
                <span class="fa fa-spinner fa-spin"></span> WIP</button>
+
+
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/teapot.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/teapot.png
+
+         .. container:: caption
+
+            :header:`Transparency`
+
+            Order independent transparency
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/transparency/oit-teapot.py"/>
+               <span class="fa fa-github"></span> Sources</a>
