@@ -8,22 +8,22 @@ News
 :11/11/2015: `Glumpy version 1.0.5
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.5>`_ is out !
 
-              Fix the PyOpenGL accelerate problem
+             Fix the PyOpenGL accelerate problem
               
 :06/06/2015: `Glumpy version 1.0.4
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.4>`_ is out !
 
-              New examples added
+             New examples added
 
 :21/01/2015: `Glumpy version 1.0.3
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.3>`_ is out !
 
-              Bugfix release
+             Bugfix release
 
 :21/01/2015: `Glumpy version 1.0.2
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.2>`_ is out !
 
-              Bugfix release
+             Bugfix release
                           
 :17/01/2015: `Glumpy version 1.0.1
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.1>`_ is out !
