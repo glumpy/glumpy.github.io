@@ -10,7 +10,7 @@
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootswatch-3.1.0/cosmo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.4/cosmo/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="_static/css/font-mfizz.css" type="text/css" />
     <link rel="stylesheet" href="_static/css/font-awesome.css" type="text/css" />
@@ -30,7 +30,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <link rel="shortcut icon" href="_static/favicon.ico"/>
     <link rel="top" title="" href="index.html" />
@@ -40,7 +40,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 
   </head>
-  <body>
+  <body role="document">
 
   <div id="navbar" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -60,7 +60,7 @@
           <ul class="nav navbar-nav">
             <li class="divider-vertical"></li>
             
-                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="http://glumpy.readthedocs.org/en/latest/index.html.html">Documentation</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="community.html">Community</a></li>
@@ -133,7 +133,7 @@
 </form>
         </div>
       </div>
-    <div class="col-md-9">
+    <div class="col-md-9 content">
       
   <div class="section" id="modern-opengl">
 <h1>Modern OpenGL<a class="headerlink" href="#modern-opengl" title="Permalink to this headline">¶</a></h1>
@@ -160,9 +160,9 @@ they will act at different stage of the rendering pipeline. To simplify this
 tutorial, we'll use only <strong>vertex</strong> and <strong>fragment</strong> shader as shown below:</p>
 <img alt="_images/gl-pipeline.png" src="_images/gl-pipeline.png" />
 <p>A vertex shader acts on vertices and is supposed to output the vertex
-<strong>position</strong> (→ <tt class="docutils literal"><span class="pre">gl_Position</span></tt>) on the viewport (i.e. screen). A fragment shader
+<strong>position</strong> (→ <code class="docutils literal"><span class="pre">gl_Position</span></code>) on the viewport (i.e. screen). A fragment shader
 acts at the fragment level and is supposed to output the <strong>color</strong>
-(→ <tt class="docutils literal"><span class="pre">gl_FragColor</span></tt>) of the fragment. Hence, a minimal vertex shader is:</p>
+(→ <code class="docutils literal"><span class="pre">gl_FragColor</span></code>) of the fragment. Hence, a minimal vertex shader is:</p>
 <div class="highlight-python"><div class="highlight"><pre>void main()
 {
     gl_Position = vec4(0.0,0.0,0.0,1.0);
@@ -217,10 +217,10 @@ structured array using the <a class="reference external" href="http://www.numpy.
 </pre></div>
 </div>
 <p>We just created a CPU buffer with 4 vertices, each of them having a
-<tt class="docutils literal"><span class="pre">position</span></tt> (3 floats for x,y,z coordinates) and a <tt class="docutils literal"><span class="pre">color</span></tt> (4 floats for
+<code class="docutils literal"><span class="pre">position</span></code> (3 floats for x,y,z coordinates) and a <code class="docutils literal"><span class="pre">color</span></code> (4 floats for
 red, blue, green and alpha channels). Note that we explicitely chose to have 3
-coordinates for <tt class="docutils literal"><span class="pre">position</span></tt> but we may have chosen to have only 2 if were to
-work in two-dimensions only. Same holds true for <tt class="docutils literal"><span class="pre">color</span></tt>. We could have used
+coordinates for <code class="docutils literal"><span class="pre">position</span></code> but we may have chosen to have only 2 if were to
+work in two-dimensions only. Same holds true for <code class="docutils literal"><span class="pre">color</span></code>. We could have used
 only 3 channels (r,g,b) if we did not want to use transparency. This would save
 some bytes for each vertex. Of course, for 4 vertices, this does not really
 matter but you have to realize it <strong>will matter</strong> if you data size grows up to
@@ -248,16 +248,16 @@ void main()
 </pre></div>
 </div>
 <p>This vertex shader now expects a vertex to possess 2 attributes, one named
-<tt class="docutils literal"><span class="pre">position</span></tt> and one named <tt class="docutils literal"><span class="pre">color</span></tt> with specified types (vec3 means tuple of
+<code class="docutils literal"><span class="pre">position</span></code> and one named <code class="docutils literal"><span class="pre">color</span></code> with specified types (vec3 means tuple of
 3 floats and vec4 means tuple of 4 floats). It is important to note that even
-if we labeled the first attribute <tt class="docutils literal"><span class="pre">position</span></tt>, this attribute is not yet bound
-to the actual <tt class="docutils literal"><span class="pre">position</span></tt> in the numpy array. We'll need to do it explicitly
+if we labeled the first attribute <code class="docutils literal"><span class="pre">position</span></code>, this attribute is not yet bound
+to the actual <code class="docutils literal"><span class="pre">position</span></code> in the numpy array. We'll need to do it explicitly
 at some point in our program and there is no automagic that will bind the numpy
 array field to the right attribute, you'll have to do it yourself, but we'll
 see that later.</p>
 <p>The second type of information we can feed the vertex shader are the uniforms
 that may be considered as constant values (across all the vertices). Let's say
-for example we want to scale all the vertices by a constant factor <tt class="docutils literal"><span class="pre">scale</span></tt>,
+for example we want to scale all the vertices by a constant factor <code class="docutils literal"><span class="pre">scale</span></code>,
 we would thus write:</p>
 <div class="highlight-python"><div class="highlight"><pre>uniform float scale;
 attribute vec2 position;
@@ -292,7 +292,7 @@ void main()
 }
 </pre></div>
 </div>
-<p>The question is what is the value of <tt class="docutils literal"><span class="pre">v_color</span></tt> inside the fragment shader ?
+<p>The question is what is the value of <code class="docutils literal"><span class="pre">v_color</span></code> inside the fragment shader ?
 If you look at the figure that introduced the gl pipleline, we have 3 vertices and 21
 fragments. What is the color of each individual fragment ?</p>
 <p>The answer is <em>the interpolation of all 3 vertices color</em>. This interpolation
@@ -335,8 +335,8 @@ manipulate. Instead of specifying the right/left/top/bottom planes, we'll use
 field of view in the horizontal and vertical direction:</p>
 <p><strong>Perspective matrix</strong></p>
 <img alt="_images/perspective-matrix.png" src="_images/perspective-matrix.png" />
-<p>where <tt class="docutils literal"><span class="pre">fovy</span></tt> specifies the field of view angle, in degrees, in the y
-direction and <tt class="docutils literal"><span class="pre">aspect</span></tt> specifies the aspect ratio that determines the field
+<p>where <code class="docutils literal"><span class="pre">fovy</span></code> specifies the field of view angle, in degrees, in the y
+direction and <code class="docutils literal"><span class="pre">aspect</span></code> specifies the aspect ratio that determines the field
 of view in the x direction.</p>
 </div>
 <div class="section" id="model-and-view-matrices">
@@ -415,7 +415,7 @@ keeping overall complexity tractable.</p>
       <li class="pull-right"><a href="#">Back to top</a></li>
     </ul>
     <ul class="list-unstyled small">
-      <li>Copyright (c) 2014 Nicolas P. Rougier</li>
+      <li>Copyright (c) 2011-2016 Nicolas P. Rougier</li>
       <li>Code licensed under
         <a href="http://opensource.org/licenses/BSD-2-Clause">BSD license</a>,
         documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0 </a>
