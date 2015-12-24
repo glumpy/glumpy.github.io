@@ -9,7 +9,9 @@ News
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.5>`_ is out !
 
              Fix the PyOpenGL accelerate problem
-              
+
+:29/08/2015: Best poster at `Euroscipy 2015 <https://www.euroscipy.org/2015/>`_
+   
 :06/06/2015: `Glumpy version 1.0.4
              <https://github.com/glumpy/glumpy/releases/tag/v1.0.4>`_ is out !
 

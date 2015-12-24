@@ -189,7 +189,7 @@ You will need the latest glumpy for the `github repository
             :header:`Mandelbrot set`
 
             The mandatory Mandelbrot set computed in the GPU with single float
-            precision even tough `double precision through emulation
+            precision even tough `double precision
             <https://www.thasler.org/blog/?p=93>`_ is possible.
 
             .. raw:: html
