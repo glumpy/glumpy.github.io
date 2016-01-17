@@ -767,3 +767,67 @@ You will need the latest glumpy for the `github repository
                <a type="button" class="btn btn-primary btn-xs"
                href="https://github.com/glumpy/glumpy/blob/master/examples/transparency/oit-teapot.py"/>
                <span class="fa fa-github"></span> Sources</a>
+
+               
+   .. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/brain.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/brain.png
+
+         .. container:: caption
+
+            :header:`Mesh reading`
+
+            Mesh reading and specular light
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/brain.py"/>
+               <span class="fa fa-github"></span> Sources</a>
+
+.. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/earth.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/earth.png
+
+         .. container:: caption
+
+            :header:`Earth rendering`
+
+            Dynamic textured earth with national capitals.
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/earth.py"/>
+               <span class="fa fa-github"></span> Sources</a>
+
+.. container:: col-sm-6 col-md-3
+
+      .. container:: thumbnail
+
+         .. image:: _static/screenshots/thumbnails/choropleth.png
+            :width: 100%
+            :class: img-rounded
+            :target: _static/screenshots/choropleth.png
+
+         .. container:: caption
+
+            :header:`Choropleth`
+
+            Choropleth with Albers projection
+
+            .. raw:: html
+
+               <a type="button" class="btn btn-primary btn-xs"
+               href="https://github.com/glumpy/glumpy/blob/master/examples/topojson.py"/>
+               <span class="fa fa-github"></span> Sources</a>

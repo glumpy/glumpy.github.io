@@ -2,6 +2,13 @@
 News
 ====
 
+:17/01/2016: `Glumpy version 1.0.6
+             <https://github.com/glumpy/glumpy/releases/tag/v1.0.8>`_ is out !
+
+             * Improved documentation
+             * New examples (see `gallery <http://glumpy.github.io/gallery.html>`_)
+             * Various bugfixes
+
 :19/12/2015: Documentation now available at
              `readthedocs.org <http://glumpy.readthedocs.org/en/latest/index.html>`_
              
